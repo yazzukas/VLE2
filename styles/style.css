@@ -80,6 +80,7 @@ main {
     padding: 10px;
     color: #3a383d;
     text-transform: uppercase;
+    flex: 0 1 100%;
 }
 
 .index-header .container{
@@ -105,16 +106,6 @@ main {
 	padding: 0 0 1em 0;
 	text-align: justify;
     padding: 10px;
-}
-
-.gallery-h2 {
-    font-family: "Gentium Basic", sans-serif;
-    font-weight: 600;
-    font-size: 28px;
-    letter-spacing: 2px;
-    padding: 10px;
-    color: #3a383d;
-    text-transform: uppercase;
 }
 
 .gallery-image {
@@ -235,7 +226,7 @@ footer ul li a {
     main {
         margin: 15px 50px 25px 50px;
     }
-    .gallery-h2 {
+    .gallery-links .header-h2 {
         visibility: hidden;
         display: none;
     }
